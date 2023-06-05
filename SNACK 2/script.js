@@ -45,3 +45,12 @@ const plates = students.map((student) => student.name.toUpperCase());
 
 console.log(plates);
 
+// Restituisco ARRAY con studenti con voto > 70
+const top_students = students.filter((student) => student.grades > 70);
+
+console.log(top_students);
+
+// Restituisco ARRAY con studenti con voto > 70 ed ID > 120
+const top_id_students = students.filter((student) => student.grades > 70 && student.id > 120);
+
+console.log(top_id_students);
