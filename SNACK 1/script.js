@@ -5,7 +5,7 @@ const guests = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'G
 console.log(guests);
 
 const invitation_array = guests.map((guest, i) => {
-    return { '_nome_del_tavolo_': 'Tavolo Vip', 'nome_dell_ospite_': guest, '_posto_occupato_': i}
+    return { 'Nome Tavolo': 'Tavolo Vip', 'Nome Ospite': guest, 'Posto Occupato': i}
 });
 
 console.log(invitation_array)
